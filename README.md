@@ -1,6 +1,33 @@
 # MyAwesome Project
 [![build status](https://img.shields.io/badge/build-pass-success.svg?style=flat)]()
 
+- [MyAwesome Project](#myawesome-project)
+  - [Python](#python)
+      - [MoviePy](#moviepy)
+    - [Kodi](#kodi)
+    - [Tiny RDM](#tiny-rdm)
+    - [WEAPP](#weapp)
+    - [transformers](#transformers)
+    - [brotli](#brotli)
+    - [Gooey](#gooey)
+    - [wagtail](#wagtail)
+    - [FreeCAD](#freecad)
+    - [duf](#duf)
+    - [opencv-mobile](#opencv-mobile)
+    - [torrent](#torrent)
+    - [linglong](#linglong)
+    - [gotenberg](#gotenberg)
+    - [QuickCut](#quickcut)
+    - [winsw](#winsw)
+    - [pyspider](#pyspider)
+    - [nicegui](#nicegui)
+    - [gorush](#gorush)
+    - [DocsGPT](#docsgpt)
+    - [python-telegram-bot](#python-telegram-bot)
+    - [recommenders](#recommenders)
+    - [uiautomator2](#uiautomator2)
+
+
 ## Python
 #### [MoviePy](https://github.com/Zulko/moviepy)
 [![python version](https://img.shields.io/badge/Python-2.x_%20_3.x-success.svg?style=flat)]()
@@ -134,7 +161,4 @@ GPT 支持的文档聊天，与您的文档聊天
 UiAutomator是Google提供的用来做安卓自动化测试的一个Java库，基于Accessibility服务。功能很强，可以对第三方App进行测试，获取屏幕上任意一个APP的任意一个控件属性，并对其进行任意操作，但有两个缺点：1. 测试脚本只能使用Java语言 2. 测试脚本要打包成jar或者apk包上传到设备上才能运行。
 
 我们希望测试逻辑能够用Python编写，能够在电脑上运行的时候就控制手机。这里要非常感谢 Xiaocong He (@xiaocong)，他将这个想法实现了出来（见xiaocong/uiautomator），原理是在手机上运行了一个http rpc服务，将uiautomator中的功能开放出来，然后再将这些http接口封装成Python库。 因为xiaocong/uiautomator这个库，已经很久不见更新。所以我们直接fork了一个版本，为了方便做区分我们就在后面加了个2 openatx/uiautomator2
-
-
-
 
