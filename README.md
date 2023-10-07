@@ -113,3 +113,28 @@ Python中强大的蜘蛛（网络爬虫）系统。
 
 A push notification server written in Go (Golang).
 
+### [DocsGPT](https://github.com/arc53/DocsGPT)
+[![language](https://img.shields.io/badge/language-python-success.svg?style=flat)]()
+
+GPT 支持的文档聊天，与您的文档聊天
+
+### [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
+[![language](https://img.shields.io/badge/language-python-success.svg?style=flat)]()
+
+电报机器人
+
+### [recommenders](https://github.com/recommenders-team/recommenders)
+[![language](https://img.shields.io/badge/language-python-success.svg?style=flat)]()
+
+推荐系统的最佳实践
+
+### [uiautomator2](https://github.com/openatx/uiautomator2)
+[![language](https://img.shields.io/badge/language-python-success.svg?style=flat)]()
+
+UiAutomator是Google提供的用来做安卓自动化测试的一个Java库，基于Accessibility服务。功能很强，可以对第三方App进行测试，获取屏幕上任意一个APP的任意一个控件属性，并对其进行任意操作，但有两个缺点：1. 测试脚本只能使用Java语言 2. 测试脚本要打包成jar或者apk包上传到设备上才能运行。
+
+我们希望测试逻辑能够用Python编写，能够在电脑上运行的时候就控制手机。这里要非常感谢 Xiaocong He (@xiaocong)，他将这个想法实现了出来（见xiaocong/uiautomator），原理是在手机上运行了一个http rpc服务，将uiautomator中的功能开放出来，然后再将这些http接口封装成Python库。 因为xiaocong/uiautomator这个库，已经很久不见更新。所以我们直接fork了一个版本，为了方便做区分我们就在后面加了个2 openatx/uiautomator2
+
+
+
+
