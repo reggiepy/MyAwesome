@@ -26,6 +26,7 @@
     - [python-telegram-bot](#python-telegram-bot)
     - [recommenders](#recommenders)
     - [uiautomator2](#uiautomator2)
+    - [CashFactory](#cashfactory)
 
 
 ## Python
@@ -162,3 +163,8 @@ UiAutomator是Google提供的用来做安卓自动化测试的一个Java库，�
 
 我们希望测试逻辑能够用Python编写，能够在电脑上运行的时候就控制手机。这里要非常感谢 Xiaocong He (@xiaocong)，他将这个想法实现了出来（见xiaocong/uiautomator），原理是在手机上运行了一个http rpc服务，将uiautomator中的功能开放出来，然后再将这些http接口封装成Python库。 因为xiaocong/uiautomator这个库，已经很久不见更新。所以我们直接fork了一个版本，为了方便做区分我们就在后面加了个2 openatx/uiautomator2
 
+
+### [CashFactory](https://github.com/OlivierGaland/CashFactory)
+[![language](https://img.shields.io/badge/language-html-success.svg?style=flat)]()
+
+Lightweight docker image stack (using docker-compose) running many passive income applications (proxy and bandwidth share) : Honeygain , EarnApp , IPRoyal Pawns , PacketStream , Peer2Profit . Expected raw revenue is around $30-$40 per month (Jan 2022 estimation), 24/7 power cost to deduce.
